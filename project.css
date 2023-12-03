@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 98%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px 30px;
+    padding: 0 auto;
+    background-color: gray;
+}
+
+/* Here i gave the left side of my flexbox a size of 70% */
+.left{
+    margin: 20px 10px;
+    background-color: pink;
+    width: 70%;
+    padding: 15px;
+    
+    
+    
+}
+
+.hl{
+    /* background-color: blueviolet; */
+    position: relative;
+   
+}
+
+.hl h1{
+    font-size: 22px;
+}
+
+/* Here is my message bookmakr and share icons code */
+.icons-h1{
+    position: absolute;
+    left: 90%;
+    bottom: 50%;
+    /* background-color: aliceblue; */
+    display: flex;
+    font-size: 14px;
+}
+
+/* Here i added spaces in between my hi icons using padding */
+.icons-h1 i{
+    padding: 7px;
+}
+
+
+/* This code is for the 5 star review and student */
+.h3-pi{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* here i used padding to give bewteeen 5 and star */
+.h3-pi i{
+    padding: 7px;
+}
+
+/* here i used padding to give space bewteen my paragraphs and color */
+.h3-pi p{
+    padding: 5px;
+    color: lightgray;
+} 
+
+/* this is the main div for image */
+.image{
+    width: 99%;
+    overflow: hidden;
+    padding-top:15px ;
+    
+    
+}
+
+/* here i arranged the image with width to get the actual size replica of the project image */
+img{
+    width: 100%;
+    border-radius: 19px;
+    /* height: 400px; */
+    
+}
+
+/* Here is the code the about, reviews, and discussion */
+.dd{
+    display: flex;
+}
+
+
+.dd details{
+    padding: 5px;
+}
+
+/* This is for the about review and discussion code */
+
+.redoc{
+    position: relative;
+}
+/* Hide the checkbox */
+.ll-toggle {
+    display: none;
+  }
+  
+  /* Style the title */
+  .ll-title {
+    cursor: pointer;
+    color: aquamarine;
+    font-size: 15px;
+  }
+  
+  /* Hide the content by default */
+  .ll-content {
+    display: none;
+  }
+  
+  /* Show content when checkbox is checked */
+  .ll-toggle:checked + .ll-title + .ll-content {
+    display: block;
+  }
+  
+
+  /* Hide the checkbox */
+/* .accordion-toggle {
+    display: none;
+  } */
+  
+  /* Style the title */
+  /* .accordion-title {
+    cursor: pointer;
+    color: gray;
+    position: absolute;
+    left: 5%;
+    bottom: 20.15px;
+    
+  } */
+  
+  /* Hide the content by default */
+  /* .accordion-content {
+    display: none;
+  } */
+  
+  /* Show content when checkbox is checked */
+  /* .accordion-toggle:checked + .accordion-title + .accordion-content {
+    display: block;
+    
+  } */
+  
+  /* .doc-title {
+    cursor: pointer;
+    color: red;
+    position: absolute;
+    left: 16%;
+    top: 53.6%;
+  } */
+
+
+/* Here i gave the right side of my flexbox a size of 30% */
+.right{
+    width: 30%;
+    background-color: aqua;
+    margin: 20px 10px;
+    padding: 15px;
+    position: relative;
+}
+
+progress{
+    width: 540px;
+    height: 30px;
+    padding: 10px;
+    
+}
+
+
+.hr{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.hr h1{
+    font-size: 22px;
+}
+
+.hr h3{
+    font-size: 13px;
+}
+
+.VidCourses{
+    background-color: aliceblue;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 40px;
+    height: 77vh;
+}
+
+.vc{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Here i used display flex to put menu-bar and vid count on same line */
+.pi{
+    display: flex;
+    
+}
+.pi i{
+    background-color: rgb(70, 196, 28);
+    border-radius: 25px;
+    font-size: 14px;
+    /* width: 150%; */
+    padding: 10px;
+    margin: 6px 20px;
+    
+    
+}
+
+.play{
+    display: flex;
+    background-color: rgb(70, 196, 28);
+    padding: 40px;
+    color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.lkd{
+    display: flex;
+    background-color: lightgray;
+    padding: 40px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.audio{
+    background-color: aliceblue;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.module{
+    background-color: aliceblue;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+
